@@ -9,5 +9,6 @@
   "Repeated_Runs_Per_Pipeline": 3,
   "Split_Random_State": 42,
   "Selection_Metric": "mean development CV F1 across seeds",
-  "Test_Scored": false
+  "Test_Scored": true,
+  "Final_Test_Metrics_Path": "conventional_final_test.csv"
 }
