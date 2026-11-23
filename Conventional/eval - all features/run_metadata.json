@@ -1,0 +1,13 @@
+{
+  "Workflow": "conventional_pipeline_evaluation",
+  "Random_Seeds": [
+    11,
+    42,
+    67
+  ],
+  "CV_Folds": 5,
+  "Repeated_Runs_Per_Pipeline": 3,
+  "Split_Random_State": 42,
+  "Selection_Metric": "mean development CV F1 across seeds",
+  "Test_Scored": false
+}

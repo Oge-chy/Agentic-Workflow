@@ -1,0 +1,2 @@
+Model,Test_Accuracy,Test_Precision,Test_Recall,Test_F1,Test_ROC_AUC,Test_Scoring_Wall_Seconds,Test_Scoring_CPU_Seconds
+XGB,0.9649122807017544,1.0,0.9047619047619048,0.95,0.9907407407407407,0.09757619997253641,0.5625

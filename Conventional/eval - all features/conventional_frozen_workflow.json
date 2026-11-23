@@ -1,0 +1,13 @@
+{
+  "Workflow_State": "test_scoring_complete",
+  "Selected_Model": "SVC",
+  "Saved_Model_Path": "c:\\Users\\ogeuc\\Downloads\\Conventional\\eval - all features\\conventional_frozen_model.joblib",
+  "Test_Metrics_Path": "c:\\Users\\ogeuc\\Downloads\\Conventional\\eval - all features\\conventional_final_test.csv",
+  "Test_Scoring_Wall_Seconds": 0.04082989995367825,
+  "Test_Scoring_CPU_Seconds": 0.046875,
+  "Random_Seeds": [
+    11,
+    42,
+    67
+  ]
+}

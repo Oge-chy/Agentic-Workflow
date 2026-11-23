@@ -1,0 +1,15 @@
+{
+  "Split_Random_State": 42,
+  "Test_Size_Fraction": 0.2,
+  "Stratified": true,
+  "Development_Row_Count": 455,
+  "Test_Row_Count": 114,
+  "Development_Target_Counts": {
+    "0": 285,
+    "1": 170
+  },
+  "Test_Target_Counts": {
+    "0": 72,
+    "1": 42
+  }
+}

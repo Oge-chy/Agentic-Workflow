@@ -1,0 +1,47 @@
+{
+  "Best_Model": "SVC",
+  "CV_Folds": 5,
+  "Random_Seeds": [
+    11,
+    42,
+    67
+  ],
+  "Development_CV_F1_Mean": 0.9614355777359175,
+  "Development_CV_F1_SD": 0.00039354269233811976,
+  "Development_CV_Runtime_Seconds": 0.22038979997159913,
+  "Agent_Runtime_Seconds": null,
+  "Final_Development_Fit_Runtime_Seconds": 0.012474399991333485,
+  "Model_Save_Runtime_Seconds": 0.004827599972486496,
+  "Model_Load_Runtime_Seconds": 0.002516700013075024,
+  "Final_Test_Scoring_Wall_Seconds": 0.04082989995367825,
+  "Final_Test_Scoring_CPU_Seconds": 0.046875,
+  "Final_Workflow_Wall_Seconds": 0.019818699976895005,
+  "Final_Workflow_CPU_Seconds": 0.015625,
+  "Test_Scored": true,
+  "Saved_Model_Path": "c:\\Users\\ogeuc\\Downloads\\Conventional\\eval - all features\\conventional_frozen_model.joblib",
+  "Development_CV_Accuracy_Mean": 0.9714285714285715,
+  "Development_CV_Accuracy_SD": 1.3597399555105182e-16,
+  "Development_CV_Precision_Mean": 0.9711855247149365,
+  "Development_CV_Precision_SD": 0.006151639416535859,
+  "Development_CV_Recall_Mean": 0.9529411764705881,
+  "Development_CV_Recall_SD": 0.005882352941176491,
+  "Development_CV_AUC_Mean": 0.994014447884417,
+  "Development_CV_AUC_SD": 0.001349504316885745,
+  "Development_CV_Runtime_Seconds_Mean": 0.22038979997159913,
+  "Development_CV_Runtime_Seconds_SD": 0.048519067751653315,
+  "Final_Test_Accuracy": 0.9736842105263158,
+  "Final_Test_Precision": 1.0,
+  "Final_Test_Recall": 0.9285714285714286,
+  "Final_Test_F1": 0.9629629629629629,
+  "Final_Test_ROC_AUC": 0.9947089947089947,
+  "Final_Test_Confusion_Matrix": [
+    [
+      72,
+      0
+    ],
+    [
+      3,
+      39
+    ]
+  ]
+}
