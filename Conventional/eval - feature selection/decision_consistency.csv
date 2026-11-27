@@ -1,4 +1,3 @@
-Selected_Model,Seed_Count,Seeds
-LR,1,[11]
-SVC,1,[67]
-XGB,1,[42]
+Classifier,Run_Count,Seeds
+LR,6,"[42, 67]"
+SVC,3,[11]

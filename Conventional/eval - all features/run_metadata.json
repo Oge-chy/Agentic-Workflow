@@ -1,14 +1,18 @@
 {
-  "Workflow": "conventional_pipeline_evaluation",
+  "Workflow": "conventional_shared_outer_holdout_evaluation",
   "Random_Seeds": [
     11,
     42,
     67
   ],
   "CV_Folds": 5,
-  "Repeated_Runs_Per_Pipeline": 3,
-  "Split_Random_State": 42,
-  "Selection_Metric": "mean development CV F1 across seeds",
-  "Test_Scored": true,
-  "Final_Test_Metrics_Path": "conventional_final_test.csv"
+  "Repeated_Outer_Holdouts_Per_Seed": 3,
+  "Outer_Run_Count": 9,
+  "Outer_Split_Source": "C:\\Users\\ogeuc\\Downloads\\Agentic\\level_1\\split_manifest.csv",
+  "Data_Partition_Source": "C:\\Users\\ogeuc\\Downloads\\Agentic\\level_1\\data_partition_manifest.json",
+  "Development_Row_Count": 455,
+  "Reserved_Test_Row_Count": 114,
+  "Selection_Metric": "Recall primary, F1 secondary",
+  "Inner_CV_Uses_Outer_Training_Rows_Only": true,
+  "Test_Scored": false
 }
